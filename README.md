@@ -12,9 +12,9 @@
 
 因amber Constant pH MD simulation對於模擬過程中，可滴定的氨基酸數量[有限制(40個上下)](http://archive.ambermd.org/201703/0076.html)，因此使用[H++](http://biophysics.cs.vt.edu/)工具，算出各胺基酸的pH變動
 
-### 輸入檔案:1AO6_amber.pdb
+### 輸入檔案:[1AO6_amber.pdb](https://github.com/allmwh/md_report/blob/master/1AO6_amber.pdb)
 
-### 輸出檔案:1AO6_amber.pkout
+### 輸出檔案:[1AO6_amber.pkout](https://github.com/allmwh/md_report/blob/master/1AO6_amber.pkout)
 
 輸出檔案為一文字檔，提供了每個胺基酸的pka變化，將此檔案丟進python處理，找出前40個變動最大的胺基酸
 
