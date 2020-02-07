@@ -18,7 +18,7 @@
 
 輸出檔案為一文字檔，提供了每個胺基酸的pka變化，將此檔案丟進python處理，找出前40個變動最大的胺基酸
 
-#### 程式碼檔案:sort_pka_change.ipynb
+#### 程式碼檔案:[sort_pka_change.ipynb](https://github.com/allmwh/md_report/blob/master/sort_pka_change.ipynb)
 
 處理結果的表格如下(僅列出部分，詳細要在程式碼裡看)，辨別出來的胺基酸，按照[amber的格式](https://ambermd.org/tutorials/advanced/tutorial18/section1.htm)，修改pdb檔案，讓amber知道要滴定這些胺基酸
 
@@ -97,7 +97,7 @@ pmemd.cuda -O -i md.mdin -p 1AO6.parm7 -c 1AO6.heat.rst7 -cpin 1AO6.cpin \
 
 ## 模擬結果
 
-可以使用python搭配一些套件來看動畫，程式碼為analysis.ipynb
+可以使用python搭配一些套件來看動畫，程式碼為[analysis.ipynb](https://github.com/allmwh/md_report/blob/master/analysis.ipynb)
 
 越低的pH值下，蛋白質打開的程度越明顯，有些模擬情況到後面直接把一個subdomain丟出去了，如下圖
 
